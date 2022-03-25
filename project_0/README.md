@@ -15,6 +15,3 @@
 Угадать загаданное компьютером число за минимальоное число попыток.
 
 :wrrow_up:[К оглавлению]() 
-=======
-*[Projekt_0:_Guess_the_number] (https://github.com/abelogurov/sf_dst_baa/blob/main/project_0)*
->>>>>>> sf_dst_baa/main
