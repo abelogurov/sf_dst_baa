@@ -3,16 +3,21 @@
 ## Оглавление
 
 [1. Описание проекта](https://github.com/abelogurov/sf_dst_baa/blob/main/project_0/README.md#описанте-проекта)
-[2. Какой кейс решаем?]()
-[3. Краткая информация о данных]()
-[4. Этапы работы над проектом]()
-[5. Результат]()
-[6. Выводы]()
+
+[2. Какой кейс решаем?](https://github.com/abelogurov/sf_dst_baa/tree/main/project_0#какой-кейс-решаем)
+
+[3. Краткая информация о данных](https://github.com/abelogurov/sf_dst_baa/tree/main/project_0#краткая-информация-о-данных)
+
+[4. Этапы работы над проектом](https://github.com/abelogurov/sf_dst_baa/tree/main/project_0#этапы-работы-над-проектом)
+
+[5. Результат](https://github.com/abelogurov/sf_dst_baa/tree/main/project_0#результат)
+
+[6. Выводы](https://github.com/abelogurov/sf_dst_baa/tree/main/project_0#выводы)
 
 ### Описанте проекта
 Угадать загаданное компьютером число за минимальоное число попыток.
 
-:wrrow_up:[К оглавлению]() 
+[К оглавлению](https://github.com/abelogurov/sf_dst_baa/tree/main/project_0#оглавление) 
 
 ### Какой кейс решаем?
 Нужно написать программу, котороая угадывает число за минимальное количество попыток и возвращает среднее значение за которое было угадано число
@@ -43,3 +48,5 @@
 
 ### Выводы
 Нужно больше практики по работе в среде разработки программ и публикации своих проектов на веб-хостинге GitHub
+
+[К оглавлению](https://github.com/abelogurov/sf_dst_baa/tree/main/project_0#оглавление) 
