@@ -1,6 +1,16 @@
-# SkillFactory Data Science
-*From the [SkillFactory_Data_Science] (https://skillfactory.ru/data-scientist-pro)*
+# Проект 0. Угадай число
 
-## My Projects:
+## Оглавление
 
-*[Projekt_0:_Guess_the_number](https://github.com/abelogurov/sf_dst_baa/blob/main/project_0)*
+[1. Описание проекта]()
+[2. Какой кейс решаем?]()
+[3. Краткая информация о данных]()
+[4. Этапы работы над проектом]()
+[5. Результат]()
+[6. Выводы]()
+
+### Описанте проекта
+
+Угадать загаданное компьютером число за минимальоное число попыток.
+
+:wrrow_up:[К оглавлению]() 
