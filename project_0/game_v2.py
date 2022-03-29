@@ -1,40 +1,38 @@
 """Игра угадай число
 Компьютер сам загадывает и сам угадывает число
 """
-
 import numpy as np
 
+def optimal_predict(number: int = 1) -> int:
+    '''Игра компьютер угадает число меньше чем за 20 попыток'''
 
-def random_predict(number: int = 1) -> int:
-    """Рандомно угадываем число
+    min = 1
+    max = 101
 
-    Args:
-        number (int, optional): Загаданное число. Defaults to 1.
+    number = np.random.randint(min, max)
 
-    Returns:
-        int: Число попыток
-    """
-    count = 0 # Счетчик попыток
+    count = 0
 
     while True:
-        count += 1
-        predict_number = np.random.randint(1, 101)  # предполагаемое число
-        if number == predict_number:
-            return count # возвращаем результат попыток если угадали
-        if number > predict_number: 
-            number % 2 # число на входе больше - делим на 2
-        if number < predict_number:
-            number * 2 # число на входе меньше - умножаем на 2
-            break  # выход из цикла если угадали
+        count+=1
+        mid = (min+max) // 2
+    
+        if mid > number:
+            max = mid
+    
+        elif mid < number:
+            min = mid
+
+        else:
+            print(f"Компьютер угадал число за {count} попыток. Это число {number}")
+            break #конец игры выход из цикла
     return count
 
-
-
-def score_game(random_predict) -> int:
+def score_game(optimal_predict) -> int:
     """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
 
     Args:
-        random_predict ([type]): функция угадывания
+        optimal_predict ([type]): функция угадывания
 
     Returns:
         int: среднее количество попыток
@@ -44,7 +42,7 @@ def score_game(random_predict) -> int:
     random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
 
     for number in random_array:
-        count_ls.append(random_predict(number))
+        count_ls.append(optimal_predict(number))
 
     score = int(np.mean(count_ls))
     print(f"Ваш алгоритм угадывает число в среднем за: {score} попыток")
@@ -53,4 +51,4 @@ def score_game(random_predict) -> int:
 
 if __name__ == "__main__":
     # RUN
-    score_game(random_predict)
+    score_game(optimal_predict)
