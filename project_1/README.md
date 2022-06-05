@@ -43,7 +43,7 @@
 
 
 **Файлы проекта**
-- Основной файл проекта: [Ноутбук-шаблон Project 1.ipynb]()
+- Основной файл проекта: [Ноутбук-шаблон Project 1.ipynb](https://drive.google.com/file/d/1IBGLIOh0xqD7Krl_Tv8nWxMDbUoqvJHG/view?usp=sharing)
 - Исходная таблица проекта: [dst-3.0_16_1_hh_database](https://drive.google.com/file/d/13BAOppk_-7VmwGVeGmCveLgm--j3b0v5/view?usp=sharing)
 - Таблица ISO валют: [ExchangeRates.md](https://drive.google.com/file/d/1GgoKOpStMBYFbpe_Qmao4lyA8JU34mEN/view?usp=sharing)
 
