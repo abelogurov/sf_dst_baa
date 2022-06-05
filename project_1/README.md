@@ -11,7 +11,7 @@
 [4. Результат](https://github.com/abelogurov/sf_dst_baa/tree/main/project_1#результат)
 
 ### Описанте проекта
-- Решить часть настоящей бизнес-задачи и и примерить роль аналитика в компании HeadHunter.
+- Решить часть настоящей бизнес-задачи и примерить роль аналитика в компании HeadHunter.
 
 [К оглавлению](https://github.com/abelogurov/sf_dst_baa/tree/main/project_1#оглавление) 
 
